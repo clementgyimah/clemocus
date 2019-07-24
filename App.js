@@ -11,9 +11,7 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Button, TouchableOpacity, ScrollView,} from 'react-native';
 
 
-
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component{
 
   constructor(){
     super()
