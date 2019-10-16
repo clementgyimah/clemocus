@@ -1,34 +1,45 @@
+//importing the necessary modules
 import React, {Component} from 'react';
 
 import {StyleSheet, Text, View, Button, TouchableOpacity, ScrollView,} from 'react-native';
 
 
-export default class App extends Component{
-
+export default class simpleCalculator extends Component{
+//The constructor that contains the state of the app for state changes to be possible
   constructor(){
     super()
     this.state={
       writetxt: "",
-      resultsTxt:""
+      resultsTxt:"",
     }
   }
 
-  ops = ['DEL','/','*','-','+']
+  //operation signs used in the app
+  ops = ['DEL','/','x','-','+']
   
+  //function used to do the mathematical calculation
   calculateResult(){
     const text = this.state.writetxt;
+    const correct = text.replace(/x/g, "*")
+
     this.setState({
-      resultsTxt: eval(text)
+      resultsTxt: eval(correct)
     })
 
     
   }
 
+  limiter(){
+    
+  }
+
+  //function used to verify that the text inputed is a valid math before calculation is done
   validate(){
     const text = this.state.writetxt
+    //the slice method takes the last letter of "text" and returns false if it is equal to any of the operators in the cases of the switch statement
     switch(text.slice(-1)){
         case "/":
-        case "*":
+        case "x":
         case "-":
         case "+":
       return false
@@ -36,30 +47,27 @@ export default class App extends Component{
     return true;
   }
 
-  /*
-  update(text){
-    this.setState({writetxt: this.state.writetxt+text})
-  }
-  */
-
+//This function updates the text on the calculator when its button is pressed. If the equal to (=) sign  is pressed, it will rather call validate() and calculateResult() functions to validate to see if there is a valid maths to be calculated and then do the calculation accordingly
   pressbtn(text){
-    //console.log(text)
     if (text == '='){
+
       return this.validate() && this.calculateResult();
     }
+    if(this.state.writetxt.length > 19) return;
     this.setState({writetxt: this.state.writetxt+text})
   }
 
+//This function takes care of operations
   operatebtn(operate){
   if (operate == 'DEL'){
     this.setState({
       resultsTxt: ""
     })
   }
+  //the switch case takes the operation button being pressed and work with it
+  //it uses "indexOf" to check if the first operator is not presssed continuously
   switch(operate){
-
     case 'DEL':
-    console.log(this.state.writetxt)
     let text = this.state.writetxt.split('')
     text.pop()
     this.setState({ writetxt : text.join('') })
@@ -67,25 +75,29 @@ export default class App extends Component{
 
     case '/':
       const lasChar1 = this.state.writetxt.split("").pop()
+      if(this.state.writetxt.length > 19) return
       if (this.ops.indexOf(lasChar1) > 0) return
       if (this.state.writetxt == "") return
       this.setState({writetxt:this.state.writetxt+operate})
       break;
 
-    case "*":
+    case "x":
       const lasChar2 = this.state.writetxt.split("").pop()
+      if(this.state.writetxt.length > 19) return
       if (this.ops.indexOf(lasChar2) > 0) return
       if (this.state.writetxt == "") return
-      this.setState({writetxt:this.state.writetxt+operate})
+      this.setState({writetxt:this.state.writetxt+"x"})
       break;
     case "-":
       const lasChar3 = this.state.writetxt.split("").pop()
+      if(this.state.writetxt.length > 19) return
       if (this.ops.indexOf(lasChar3) > 0) return
       if (this.state.writetxt == "") return
       this.setState({writetxt:this.state.writetxt+operate})
       break;
     case "+":
       const lasChar4 = this.state.writetxt.split("").pop()
+      if(this.state.writetxt.length > 19) return
       if (this.ops.indexOf(lasChar4) > 0) return
       if (this.state.writetxt == "") return
       this.setState({writetxt:this.state.writetxt+operate})
@@ -97,18 +109,19 @@ export default class App extends Component{
 
   render() {
 
+    //This section creates the (numbers and special keys) buttons
     let btnrows = [];
     let nums = [[1,2,3],[4,5,6],[7,8,9],['.',0,'=']];
     for (let i=0; i<4; i++){
       btnrow=[];
       for (let j=0; j<3; j++){
         btnrow.push(<TouchableOpacity key={nums[i][j]} onPress={()=> {this.pressbtn(nums[i][j])}}  
-        /*onLongPress={() => {this.update(nums[i][j])}}*/ style={styles.numbtn}><Text style={styles.btntxt}>{nums[i][j]}</Text></TouchableOpacity>);
+        style={styles.numbtn}><Text style={styles.btntxt}>{nums[i][j]}</Text></TouchableOpacity>);
       }
       btnrows.push(<View key={i} style = {styles.numbtn}>{btnrow}</View>);
-
     }
 
+    //This section creates the (operations) buttons
     let btnops=[];
     for (let k=0; k<5; k++){
       let btnop=[];
@@ -117,6 +130,7 @@ export default class App extends Component{
 
     }
 
+    //the return section of the render 
     return (
       <View style={styles.container}>
       <View style = {styles.calculation}>
@@ -154,7 +168,7 @@ const styles = StyleSheet.create({
       alignItems:'flex-end',
     },
     button:{
-      flex:7,
+      flex:6,
       flexDirection:'row',
     },
       number:{

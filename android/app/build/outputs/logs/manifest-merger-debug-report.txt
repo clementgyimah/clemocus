@@ -5,6 +5,7 @@ INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-nativ
 INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.60.4] /home/dj-clemo/.gradle/caches/transforms-2/files-2.1/d7eb2afd391026b12ee0357064eb94ef/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/dj-clemo/.gradle/caches/transforms-2/files-2.1/c9c37954e6fedd70103cd8231b4ae462/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -133,6 +134,8 @@ uses-sdk
 INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.60.4] /home/dj-clemo/.gradle/caches/transforms-2/files-2.1/d7eb2afd391026b12ee0357064eb94ef/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.60.4] /home/dj-clemo/.gradle/caches/transforms-2/files-2.1/d7eb2afd391026b12ee0357064eb94ef/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/dj-clemo/.gradle/caches/transforms-2/files-2.1/c9c37954e6fedd70103cd8231b4ae462/AndroidManifest.xml:7:5-9:41

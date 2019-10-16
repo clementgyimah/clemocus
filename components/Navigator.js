@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {createAppContainer, createMaterialTopTabNavigator} from 'react-navigation';
-import App from './App';
+import simpleCalculator from './simpleCalculator';
 import BMIcalculator from './BMIcalculator';
 
 const TopTabNavigator = createMaterialTopTabNavigator({
-    Math:{
-        screen: App
+    simple:{
+        screen: simpleCalculator
     },
     BMI: {
         screen: BMIcalculator
