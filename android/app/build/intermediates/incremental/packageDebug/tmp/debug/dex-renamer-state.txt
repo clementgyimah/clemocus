@@ -1,4 +1,4 @@
-#Thu Jan 02 14:26:06 GMT 2020
-base.0=/home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
+#Thu Nov 11 13:24:39 GMT 2021
+base.0=/home/gyimah/Documents/Programming/JavaScript/React_Native/Projects/clemocus/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
+path.0=classes.dex

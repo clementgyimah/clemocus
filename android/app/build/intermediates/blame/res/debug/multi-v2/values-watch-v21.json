@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/home/gyimah/Documents/Programming/JavaScript/React_Native/Projects/clemocus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/dj-clemo/.gradle/caches/transforms-2/files-2.1/8b2ccd423b5c7b4309405fa0613756b3/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/home/gyimah/.gradle/caches/transforms-2/files-2.1/9b1e0d45558a0ab29520143a7e40b97c/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

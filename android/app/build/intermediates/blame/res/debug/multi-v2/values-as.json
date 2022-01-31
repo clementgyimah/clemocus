@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/home/gyimah/Documents/Programming/JavaScript/React_Native/Projects/clemocus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
-                    "source": "/home/dj-clemo/.gradle/caches/transforms-2/files-2.1/8b2ccd423b5c7b4309405fa0613756b3/res/values-as/values-as.xml",
+                    "source": "/home/gyimah/.gradle/caches/transforms-2/files-2.1/9b1e0d45558a0ab29520143a7e40b97c/res/values-as/values-as.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/dj-clemo/.gradle/caches/transforms-2/files-2.1/1b5f29b89762083f1493b3f31dae355b/res/values-as/values-as.xml",
+                    "source": "/home/gyimah/.gradle/caches/transforms-2/files-2.1/927e3e1b6cb64b19031a72ed650c1727/res/values-as/values-as.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

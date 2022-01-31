@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/dj-clemo/Desktop/Programming/Programs/JavaScript/React-native/GITHUB PROJECTS/clemoCus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/gyimah/Documents/Programming/JavaScript/React_Native/Projects/clemocus/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/dj-clemo/.gradle/caches/transforms-2/files-2.1/8b2ccd423b5c7b4309405fa0613756b3/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/gyimah/.gradle/caches/transforms-2/files-2.1/9b1e0d45558a0ab29520143a7e40b97c/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
